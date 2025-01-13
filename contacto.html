@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Vera Playa Urb Fuentemar</title>
+        <meta charset="utf-8">
+      	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scalable=1, maximum-scalable=1, minimum-scalable=1">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/_contacto.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="imagenes/barra.png" /> 
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
+	</head>
+<body>
+   <header>
+    	<div class="contenedor">
+   	  		<h1><a href="index.html"><img src="imagenes/indalo.png" height="50" alt="VeraPlayaFuentemar"></a></h1><h2>Vera Playa</h2>
+      		<input type="checkbox" id="menu-bar">
+      		<label class="icon-menu" for="menu-bar"></label>
+      		<nav class="menu" style="left: 1px; top: 50px;">
+      		<a href="index.html">Inicio</a>
+      		<a href="casa.html">Casa</a>
+            <a href="actividades.html">Actividades</a>
+        	<a href="mapa.html">Mapa</a>
+        	<a href="calendario.html">Calendario</a>
+        	<a href="_contacto.html">Contacto</a>
+      		</nav>
+     	</div>
+  </header>
+  <main>
+    <table height="70" border="0">
+</table>
+   <form action="enviar.php" method="post">
+      <h2 id="titulo_contacto">Contacto</h2>
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="correo" placeholder="Correo" required>
+      <input type="text" name="telefono" placeholder="Teléfono" required>
+      <textarea name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
+      <div class="g-recaptcha" data-sitekey="6LfWIV4bAAAAACWtIHcrqpGW2I0G6GDtNPZ5ifoZ"></div>
+        <br>
+      <input type="submit" value="Enviar" id="boton">
+   </form>
+ </main>
+<br><br>
+<footer>
+	<div class="contenedor">
+    	<p class="copy">Vera Playa Urb Fuentemar &copy; 2021</p>
+        <div class="sociales">
+       <a class="icon-facebook" href="#"></a>
+       <a class="icon-twitter" href="#"></a>
+       <a class="icon-instagram" href="#"></a>
+       <a class="icon-whatsapp" href="https://api.whatsapp.com/send?phone=34667061295&text=Quiero%20información de la casa Vera Playa"></a>
+       </div>
+    </div>
+</footer>
+    
+    
+</body>
+</html>

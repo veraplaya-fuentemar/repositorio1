@@ -1,0 +1,37 @@
+body {
+    background-image: url(fondo.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#ccontenedor {
+    text-align: center;
+    margin-bottom: 100px;
+    max-width: 1000px;
+}
+#contacto {
+    float: none;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#ccontacto {
+    float: none;
+    text-align: center;
+}
+#cccontacto {
+    float: none;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: skyblue;
+}
